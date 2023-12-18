@@ -1,0 +1,443 @@
+<head>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css" integrity="sha256-VxlXnpkS8UAw3dJnlJj8IjIflIWmDUVQbXD9grYXr98=" crossorigin="anonymous">  
+  
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js" integrity="sha256-Ka8obxsHNCz6H9hRpl8X4QV3XmhxWyqBpk/EpHYyj9k=" crossorigin="anonymous"></script> 
+  
+  
+  
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+<title>DisTv</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+
+  
+<!-- إعلانات --
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+</td><td>
+ <table class="tborder" cellpadding="" cellspacing="" border="0" width="100%" align="right">
+<tr><td class="thead" align="center">
+
+</a>
+</font>
+</td></tr>
+<tr><td class="alt1" align="right">
+<MARQUEE onmouseover=this.stop() onmouseout=this.start() scrollAmount=3 scrollDelay=50 direction=right><table width="100%" cellpadding="0" cellspacing="0" border="0" align="right">
+<img src ="https://i.postimg.cc/7PcMgSHh/hb.png">
+</table></a> <!-- نهاية إعلان محدد --></tr></table></MARQUEE></td></tr></table>
+</td><td background="/bakborleft.gif" width="20">
+</td></tr></table>
+<!-- نهاية إعلانات
+
+<!---------------------
+
+
+---------------------->
+
+<!----------  اكواد استايل القنوات  ------------>
+<style type="text/css">
+.grid-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px 5px;
+padding: 10px;
+}
+.grid1-container {
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(1, 1fr1);
+grid-gap: 10px;
+
+color: black;
+padding: px;
+}
+h1 {
+text-align: center;
+margin-top: 1px;
+font-weight: bold;
+font-family: "Readex Pro", sans-serif;
+
+}
+
+h2 {
+text-align: center;
+margin-top: 0.5px;
+font-size: 25px;
+color: #07070a;
+font-family: "Readex Pro", sans-serif;
+font-weight: bold;
+}
+
+button {
+border-radius: 20px;
+background-image: linear-gradient(to right, #0e16ed,#ed0ee6);
+border-color: #e80707;
+padding: 0px;
+margin: 3px;
+height: 80px;
+width:100%;
+cursor: pointer;
+}
+
+.button {
+text-align: center;
+}
+ {
+display: block;
+}
+button:active {
+border: 8px solid rgb116, 72, 172, 1) 35%, rgba(142, 80, 0, 1) 65%, rgba(0, 116, 111, 1) 100%);
+
+}
+
+</style>
+<style>img[alt="www.000webhost.com"]{display:none};</style>
+<!----------  اكواد استايل التطبيق شامل  ------------>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+body {
+padding: 0;
+margin: 0;
+user-select: none;
+list-style: none;
+background: #05050f;
+background-size: cover;
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+margin: auto;
+/* position: relative; */
+direction: ltr;
+
+/**  تغير  خلفيه التطبيق **/
+background-image:#524e51;
+/**  تغير  خلفيه التطبيق **/
+}
+h3 {
+text-align: center;
+/* text-align: right; */
+/* padding-right: 65px; */
+/* padding-top: 2px;
+    font-size: medium; */
+font-weight: 200;
+font-family: "Readex Pro", sans-serif;
+}
+
+header {
+
+#i1 {
+position: fixed;
+top: 21px;
+
+right: 17px;
+font-size: 40px;
+}
+#i2 {
+position: fixed;
+top: 21px;
+left: 14px;
+font-size: 40px;
+}
+#i3 {
+position: fixed;
+top: 16px;
+left: 40px;
+font-size: 40px;
+}
+
+#page:hover {
+background: none;
+}
+#page {
+margin-top: 75px;
+width: 100%;
+}
+
+#page a:hover {
+background: #fff;
+}
+#page a {
+height: 50px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-bottom: 11px;
+border: 2px solid rgba(188, 17, 21, 255);
+border-radius: 15px;
+width: 91%;
+display: inline-block;
+margin-right: 14px;
+margin-left: 14px;
+background: white;
+}
+#page a img {
+/*height:50px;
+margin-right:10px;
+width:50px;
+padding-bottom:20px;
+*/
+height: 50px;
+margin-right: 10px;
+width: 50px;
+padding-bottom: 4px;
+}
+#page a p {
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+/* position: absolute; */
+/* margin-right: 20px; */
+/* margin-top: -40px; */
+display: inline-block;
+font-weight: 550;
+color: rgba(188, 17, 21, 255);
+}
+</style>
+
+<!----------  اكواد استايل القائمة  ------------>
+<style>
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+/**  تغير  لون القائمة **/
+background-color: #509106;
+/**  تغير  لون القائمة **/
+
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 15px;
+color: #fff;
+display: block;
+transition: 0.3s;
+text-align: center;
+font-family: "Readex Pro", sans-serif;
+}
+
+.sidenav a:hover {
+color: #c9cad9;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 5px;
+right: 0;
+font-size: 15px;
+margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+padding-top: 15px;
+}
+.sidenav a {
+font-size: 18px;
+}
+}
+
+
+  
+/* .ازالة شريط التمرير اسفل المدونة*/
+html {
+overflow-x: hidden;
+}
+
+/* ازالة تغيير شكل السكرول بار Scroll.Bar */
+::-webkit-scrollbar {
+width: 7px;
+}
+::-webkit-scrollbar-thumb {
+-webkit-shadow: inset 0 0 0 #000000;
+-webkit-border-radius: 0;
+background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
+}
+::-webkit-scrollbar-track {
+-webkit-shadow: inset 0 0 0 #000000;
+-webkit-border-radius: 100px;
+  
+  
+ box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;  
+   
+  
+}
+
+</style>
+</head>
+<body dir="rtl">
+<header>
+
+
+<!--- اسم القسم --->
+
+
+<!--- القائمة --->
+<div id="mySidenav" class="sidenav">
+<!--- لوجو --->
+<div class="col-md-9">
+<img src="https://i.postimg.cc/nLr9ck6X/14.png" style="width: 180px; height: `; /* margin: 15px; */ padding: 10px; margin-top: -34px; margin-right: 15px;" />
+</div>
+
+<!---  اقسام القائمة -->
+<a href="رابط"> <i class="fa fa-share"></i> مشاركه التطبيق </a>
+<a href="رابط"> <i class="fa fa-bolt"></i> سياسيه الخصوصيه </a>
+<a href="رابط"> <i class="fa fa-envelope"></i> اتصل بنا </a>
+<!--- كود الاغلاق ممنوع حذفه --->
+<a href="javascript:void(0)" onclick="closeNav()"> × اغلاق القائمه </a>
+</div>
+<span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
+<i id="i1" class="fa fa-bars" style="font-size: 20px; color: #fff;"></i>
+</span>
+</header>
+<div id="page">
+<div class="grid1-container">
+<div align="center" class="button">
+<div id="buttons-list">
+<!--- اقسام التطبيق --->
+  
+<button onclick="window.open('http://distv.hopto.org:8000/algerai/?s=http://startv365.com:80/live/8059765630/3322606439/113065.m3u8')">
+<img src="https://i.postimg.cc/DyQYFrVN/alg.jpg" style="border-radius:8px;"align="left"  height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+  
+<button onclick="window.open('http://distv.hopto.org:8000/arab/?s=https://shls-euronews-en-prod-dub.shahid.net/out/v1/b09bbb8d9b684763be4211b088168de7/index_9.m3u8')">
+<img src="https://www.now-time.com/flags/2560/sa.png" style="border-radius:8px;"align="left"  height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button> 
+
+ 
+
+<button onclick="window.open('http://distv.hopto.org:8000/news/?s=https://live-hls-web-aja-fa.getaj.net/AJA/01.m3u8')">
+<img src="https://i.postimg.cc/J7FRZWG8/news.png" style="border-radius: 8px;" align="left" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('http://distv.hopto.org:8000/server/?s=http://sniperstv.cc:8080/live/@-@SSobsfullhdex@FD-@/FguBPXPBHEpH/51.m3u8')">
+<img src="https://i.postimg.cc/L83Xz0cV/beinsport.png" style="border-radius: 8px;" align="left" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+   
+<button onclick="window.open('http://distv.hopto.org:8000/beinmoveis/?s=http://startv365.com:80/live/8059765630/3322606439/63866.m3u8')">
+<img src="https://i.postimg.cc/VkkyVGSg/beinmovies.png" style="border-radius: 8px;" align="left" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://i.postimg.cc/k572zdQZ/osn.png" style="border-radius: 8px;" align="left" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+ 
+<button onclick="window.open('')">
+<img src="https://i.postimg.cc/763wkCqn/shahid.png" style="border-radius: 8px;" align="left" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>  
+  
+<button onclick="window.open('http://distv.hopto.org:8000/mbc/?s=https://mbc1na-prod-dub-ak.akamaized.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/index_7.m3u8')">
+<img src="https://i.postimg.cc/50SdrZmP/mbc.png" style="border-radius: 8px;" align="left" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>    
+
+<button onclick="window.open('http://distv.hopto.org:8000/france/?s=https://m6-int-prod-dub-ak.akamaized.net/out/v1/a315ab77ee7343a7a17dbe7e32eee3ba/index_2.m3u8')">
+<img src="https://s3.eu-west-2.amazonaws.com/qmasters/flags/png/france/flag-button-square-250.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/280px-Flag_of_Germany.svg.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ottoman_flag.svg/280px-Ottoman_flag.svg.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/280px-Flag_of_Spain.svg.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/280px-Flag_of_Italy.svg.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+  
+<button onclick="window.open('https://hafsamalak1.blogspot.com/2023/09/usa.html?s=https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_1M.m3u8')">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/280px-Flag_of_the_United_States.svg.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/280px-Flag_of_Brazil.svg.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://s3.eu-west-2.amazonaws.com/qmasters/flags/png/russia/flag-square-250.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+
+<button onclick="window.open('')">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/300px-Flag_of_India.svg.png" align="left" style="border-radius: 8px;" height="60px" width="200px" vspace="5px" />
+<h2></h2>
+</button>
+  
+
+
+</div>
+  
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+var $target=$('[alt*="000webhost"]');
+if($target.length>0){
+    var $div=$target.parent().closest('div').remove();
+}
+
+$(document).ready( function() {
+    // Remove webhostapp image 
+    $('body > div:last').remove()
+    //Remove analitycs script
+    $('body > script:last').remove()
+})
+
+
+
+
+img[alt*="000webhost"],
+img[alt*="000webhost"][style],
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body > div:nth-last-of-type(1)[style]{
+	opacity: 0 !important;
+	pointer-events:none !important;
+	width: 0px !important;
+	height: 0px !important;
+	visibility:hidden !important;
+	display:none !important;
+
+
+
+</script>
+</div>
+</div>
+</div>
+</header>
+</body>
+</html>
